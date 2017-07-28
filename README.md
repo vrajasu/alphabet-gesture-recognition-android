@@ -1,11 +1,11 @@
 # alphabet-gesture-recognition-android
-This project involves testing the feasibility of using Dynamic Time Warping (DTW) instead of traditional ML approaches for comparing training samples to testing samples for alphabet gesture recognition. This experiment is conducted only for four alphabets A,B,C and D
+This project involves testing the feasibility of using Dynamic Time Warping (DTW) instead of traditional ML approaches for comparing training samples and  testing samples for alphabet gesture recognition. This experiment is conducted only for four alphabets A,B,C and D
 
 The application uses accelerometer data in the X and Y direction to record the samples at a sampling rate of 100Hz. 
 
-The application is divided into two main parts that are data collection or training and testing. 
+The application is divided into two main parts which are data collection/training and testing. 
 
-### Data Collection or Training Phase
+### Data Collection/Training Phase
 1. The application first checks if there is a training file present, if the training file is found then the user is given the option to either move to the testing stage or record new samples.
 <p align="center">
   <img src="https://github.com/vrajasu/alphabet-gesture-recognition-android/blob/master/screenshots/file_found.png" width="250"/>
@@ -30,11 +30,11 @@ The application is divided into two main parts that are data collection or train
 The results depend on one very important factor which is how one draws the alphabet in the air, is it slowly/fast/smoothly. Steadily drawn samples and tests yield a very high accuracy rate. 
 
 ### Future Work
-Future work would involved extending this to more alphabets and refining the data recorded by sensor fusion. Sensor fusion between accelerometer, gyroscope and compass provide a very accurate reading of the devices pitch yaw and roll.
+Future work would involve refining data recorded by sensor fusion. Sensor fusion between accelerometer, gyroscope and compass provide a very accurate reading of the device's pitch, yaw and roll. A more accurate data collection process will only result in higher accuracies during the testing process
 
 Do not use unless you have obtained permission
 
-Copyright 2018
+Copyright 2017
 
 @authors
 - Vraj Delhivala mailto: vdelhiva@asu.edu
